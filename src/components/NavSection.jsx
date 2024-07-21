@@ -25,7 +25,7 @@ const NavSection = () => {
           />
         </nav>
       </div>
-      fontSize={23}
+     
     </div>
   );
 };
