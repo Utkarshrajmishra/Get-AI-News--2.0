@@ -1,13 +1,12 @@
-import './App.css'
+import "./App.css";
+import Banner from "./components/Banner";
 
 function App() {
-  
-
   return (
     <>
-     <h1 className='text-red-500'>Hello world</h1>
+     <Banner/>
     </>
-  )
+  );
 }
 
-export default App
+export default App;
