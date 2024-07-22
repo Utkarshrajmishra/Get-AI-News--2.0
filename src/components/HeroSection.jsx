@@ -8,9 +8,9 @@ const HeroSection = () => {
         <div className="flex text:sm items-center justify-center">
           <div className="flex gap-2 w-fit border py-1 px-2 rounded-lg items-center">
             <p className="bg-gradient-to-r from-pink-500 via-fuchsia-500 to-blue-500 text-transparent tracking-wide bg-clip-text [-webkit-background-clip:text]">
-              Version 2.0 is here
+              ✨ Version 2.0 is here
             </p>
-            <FaArrowRight fontSize={15} color="white" />
+            
           </div>
         </div>
         <div className="flex flex-col items-center">
@@ -23,7 +23,7 @@ const HeroSection = () => {
               alt="Arrow Icon"
               height={200}
               width={200}
-              className="absolute left-[76px] top[100px] hidden lg:inline"
+              className="absolute left-[78px] top[120px] hidden lg:inline"
             />
             {/* <img
               src={Message}
