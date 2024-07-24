@@ -25,13 +25,6 @@ const HeroSection = () => {
               width={200}
               className="absolute left-[78px] top[120px] hidden lg:inline"
             />
-            {/* <img
-              src={Message}
-              alt="Message Icon"
-              height={200}
-              width={200}
-              className="absoute right-[56px] top-[108px] hidden sm:inline"
-            /> */}
           </div>
           <p className="text-center text-md  tracking-wider md:text-[17px] mt-8 max-w-5xl">
             Discover cutting-edge advancements and trends in artificial
@@ -40,7 +33,7 @@ const HeroSection = () => {
           </p>
         </div>
         <div className="flex  items-center justify-center mt-8">
-          <button className="p-3 hover:bg-slate-200 text-sm font-semibold tracking-wider bg-white rounded-lg text-purple-900">
+          <button className="p-3 hover:bg-slate-200 text-sm font-semibold tracking-wider bg-purple-900 rounded-lg text-white">
             Get started for free
           </button>
         </div>
